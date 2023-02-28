@@ -12,7 +12,7 @@
   <p align="center">
     Proyecto de analítica de datos para el curso Proyecto Integrador 1 de Ingeniería de Sistemas - Universidad EAFIT
     <br />
-    <a href="https://github.com/jdmartinev/IMDBAnalytics/IMDBAnalyticsProject"><strong>Proyecto base »</strong></a>
+    <a href="https://github.com/jdmartinev/IMDBAnalytics/IMDBAnalyticsProject"><strong>Proyecto base </strong></a>
     <br />
   </p>
 </div>
@@ -55,6 +55,7 @@ Adicionalmente, se deberá instalar:
 <!-- Analítica de datos en django -->
 ## Analítica de datos en Django
 
+### Proyecto base
 Lo primero será revisar que el proyecto esté copiado correctamente desplegando el servidor. Para esto, desde la terminal ubicada en la carpeta del proyecto (IMDBAnalyticsProject), escriba lo siguiente
 
   ```sh
@@ -106,6 +107,8 @@ Si navega en los modelos existentes (Movie y Map), puede observar que tiene 1 ma
     <img src="images/serveradmin_movie.png" >
   </a>
   </div>
+  
+### Modificación del proyecto base
 
 
 
