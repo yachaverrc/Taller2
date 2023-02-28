@@ -110,6 +110,14 @@ Si navega en los modelos existentes (Movie y Map), puede observar que tiene 1 ma
   
 ### Modificación del proyecto base
 
+Ahora, en el editor de códio que esté utilizando, va a modificar el archivo views.py que se encuentra en la aplicación analytics. En este archivo incluiremos las librerías necesarias para procesar los datos que se cargarán desde los modelos Movie y Map, y las librerías necesarias para su procesamiento y graficación.
+
+Incluya las liberías que se muestran en las líneas 4 a la 14
+
+
+
+
+
 
 
 
