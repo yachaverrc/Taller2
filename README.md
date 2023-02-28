@@ -114,6 +114,18 @@ Ahora, en el editor de códio que esté utilizando, va a modificar el archivo vi
 
 Incluya las liberías que se muestran en las líneas 4 a la 14
 
+```{python}
+from .models import Movie, Map
+import pandas as pd
+import geopandas as gpd
+from django.conf import settings
+import os
+import matplotlib.pyplot as plt
+from mpl_toolkits.axes_grid1 import make_axes_locatable
+import urllib, base64
+import io
+```
+
 
 
 
