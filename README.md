@@ -61,13 +61,38 @@ Adicionalmente, se deberá instalar:
 <!-- Analítica de datos en django -->
 ## Analítica de datos en Django
 
-Lo primero será revisar que el proyecto esté copiado correctamente desplegando el servidor. Para esto, desde la terminal ubicada en la carpeta del proyecto, se escribirá lo siguiente
+Lo primero será revisar que el proyecto esté copiado correctamente desplegando el servidor. Para esto, desde la terminal ubicada en la carpeta del proyecto, escriba lo siguiente
 
   ```sh
   python manage.py runserver  
   ```
-Desde el navegador, se accederá al servidor local http://127.0.0.1:8000/
+ <div align="center">
+  <a>
+    <img src="images/console1.png">
+  </a>
+  </div>
+  
+Desde el navegador, acceda al servidor local http://127.0.0.1:8000/ donde se deberá ver algo de esta forma:
 
-a crear un super usuario para revisar que los archivos necesarios se encuentren en la base de datos.
-Para esto, escribiremos en consola:
+ <div align="center">
+  <a>
+    <img src="images/server1.png">
+  </a>
+  </div>
+
+
+Después, debe crear un super usuario para revisar que los archivos necesarios se encuentren en la base de datos.
+Para esto, escriba en consola:
+
+  ```sh
+  python manage.py createsuperuser   
+  ```
+
+Ingrese el nombre de usuario y contraseña. Después, despliegue de nuevo el servidor e ingrese a la interfaz de administrador http://127.0.0.1:8000/admin.
+Ingrese su nombre de usuario y contraseña, y deberá ver lo siguiente:
+
+
+
+
+
 
