@@ -116,7 +116,7 @@ Incluya las liberías que se muestran en las líneas 4 a la 14
 
   <div align="center">
   <a>
-    <img src="images/views1.png" >
+    <img src="images/views11.png" >
   </a>
   </div>
 
