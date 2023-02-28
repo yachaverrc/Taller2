@@ -157,7 +157,7 @@ def home(request):
     return render(request,'home.html')
 ```
 
-
+En este punto en la función home, tenemos los datos listos para graficar. 
 
 
 
