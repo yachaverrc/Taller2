@@ -76,7 +76,7 @@ Desde el navegador, acceda al servidor local http://127.0.0.1:8000/ donde se deb
 
  <div align="center">
   <a>
-    <img src="images/server1.png">
+    <img src="images/server1.png" >
   </a>
   </div>
 
@@ -97,17 +97,19 @@ Ingrese su nombre de usuario y contraseña, deberá ver lo siguiente:
   </a>
   </div>
 
-Si navega en los modelos existentes (Movie y Map), puede observar que tiene 1 mapa y más de 5000 películas en la base de datos.
+Si navega en los modelos existentes (Movie y Map), puede observar que tiene 1 mapa 
 
  <div align="center">
   <a>
-    <img src="images/serveradmin_map.png">
+    <img src="images/serveradmin_map.png" >
   </a>
   </div>
   
-   <div align="center">
+ y más de 5000 películas en la base de datos.
+  
+  <div align="center">
   <a>
-    <img src="images/serveradmin_movie.png">
+    <img src="images/serveradmin_movie.png" >
   </a>
   </div>
 
