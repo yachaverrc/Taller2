@@ -134,6 +134,29 @@ import io
 
 Después, modifique la función _home_ de este mismo archivo. En esta función, se hará todo el procesamiento de los datos (geográficos y de lsa películas)
 
+  <div align="center">
+  <a>
+    <img src="images/viewshome_prep.png" >
+  </a>
+  </div>
+
+```python
+def home(request):
+    #load dataframe
+    df = pd.DataFrame(list(Movie.objects.all().values()))
+    #load shp file
+    worldMap =  Map.objects.filter()[0]
+    file_name = worldMap.file.path
+    geo_df = gpd.read_file(file_name)[['ADMIN', 'ADM0_A3', 'geometry']]
+    # Rename columns
+    geo_df.columns = ['country', 'country_code', 'geometry']
+    #Process
+    df = df.groupby('country').size().to_frame('Size')
+    df = pd.merge(left=geo_df, right=df, how='left', left_on='country', right_on='country')
+
+    return render(request,'home.html')
+```
+
 
 
 
