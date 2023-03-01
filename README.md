@@ -51,13 +51,10 @@ En resumen, al final de este proyecto guiado usted deberá estar en capacidad de
 - Utilizar Pandas y Plotly para crear gráficas de dispersión (scatter plots) para realizar análisis de correlación
 
 
-<!-- ABOUT THE PROJECT -->
-## Instalación
-
 ## Analítica de datos en Colab
 
-Siga paso a paso las instrucciones del archivo <a href=IMDBAnalyticsColab/IMDBAnalyticsColab_Tutorial.ipynb><strong>IMDBAnalyticsColab_Tutorial </strong></a>
-
+- Siga paso a paso las instrucciones del archivo <a href=IMDBAnalyticsColab/IMDBAnalyticsColab_Tutorial.ipynb><strong>IMDBAnalyticsColab_Tutorial </strong></a>
+- Resuleva los ejercicios propuestos en el archivo <a href=IMDBAnalyticsColab/IMDBAnalyticsColab_Workshopl.ipynb><strong>IMDBAnalyticsColab_Workshop </strong></a>
 <!-- Analítica de datos en django -->
 ## Analítica de datos en Django
 
