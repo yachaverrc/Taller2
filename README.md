@@ -54,7 +54,7 @@ En resumen, al final de este proyecto guiado usted deberá estar en capacidad de
 ## Analítica de datos en Colab
 
 - Siga paso a paso las instrucciones del archivo <a href=IMDBAnalyticsColab/IMDBAnalyticsColab_Tutorial.ipynb><strong>IMDBAnalyticsColab_Tutorial </strong></a>
-- Resuleva los ejercicios propuestos en el archivo <a href=IMDBAnalyticsColab/IMDBAnalyticsColab_Workshopl.ipynb><strong>IMDBAnalyticsColab_Workshop </strong></a>
+- Resuleva los ejercicios propuestos en el archivo <a href=IMDBAnalyticsColab/IMDBAnalyticsColab_Workshop.ipynb><strong>IMDBAnalyticsColab_Workshop </strong></a>
 <!-- Analítica de datos en django -->
 ## Analítica de datos en Django
 
