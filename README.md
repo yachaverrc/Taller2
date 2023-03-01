@@ -127,14 +127,10 @@ from .models import Movie, Map
 import pandas as pd
 import geopandas as gpd
 from django.conf import settings
-import os
-import matplotlib.pyplot as plt
-from mpl_toolkits.axes_grid1 import make_axes_locatable
-import urllib, base64
-import io
+import plotly.express as px
 ```
 
-Después, modifique la función _home_ de este mismo archivo. En esta función, se hará todo el procesamiento de los datos (geográficos y de las películas)
+Después, modifique la función _home_ de este mismo archivo. En esta función, se hará todo el procesamiento de los datos (geográficos y de las películas), se graficará el mapa utilizando la librería _plotly-express_ y se almacenará como un archivo _html_ que será enviado al _template_ para su visualización.
 
   <div align="center">
   <a>
@@ -148,15 +144,30 @@ def home(request):
     df = pd.DataFrame(list(Movie.objects.all().values()))
     #load shp file
     worldMap =  Map.objects.filter()[0]
-    file_name = worldMap.file.path
+    file_name = worldMap.file_shp.path
     geo_df = gpd.read_file(file_name)[['ADMIN', 'ADM0_A3', 'geometry']]
     # Rename columns
-    geo_df.columns = ['country', 'country_code', 'geometry']
+    geo_df.columns = ['country', 'country_code', 'geometry']    
     #Process
-    df = df.groupby('country').size().to_frame('Size')
+    df = df.groupby('country').size().to_frame('Movies')
     df = pd.merge(left=geo_df, right=df, how='left', left_on='country', right_on='country')
-
-    return render(request,'home.html')
+    #Create figure
+    fig = px.choropleth_mapbox(df,
+                           geojson=df.geometry,
+                           locations=df.index,
+                           color="Movies",
+                           mapbox_style="open-street-map",
+                           opacity = 0.5,
+                           zoom=0.5,
+                           width = 1000,
+                           height = 800,
+                           labels = {'country': 'country'},
+                           )
+    #Convert figure to html                               
+    chart = fig.to_html()
+    context = {'chart': chart}
+    #Sent figure to the template
+    return render(request,'home.html',context)
 ```
 
 En este punto en la función home, tenemos los datos listos para graficar. 
