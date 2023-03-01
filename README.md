@@ -192,17 +192,21 @@ En este punto tiene el mapa listo para mostrar. Para esto, va a modificar el arc
 </html>
 ```
 
-Finalmente, despliegue el servidor:
-
-  <div align="center">
-  <a>
-    <img src="images/viewshome_prep.png" >
-  </a>
-  </div>
+Finalmente, desde la consola despliegue el servidor:
 
 ```sh
 python manage.py runserver  
 ```
+
+Deberá ver algo de esta forma:
+
+  <div align="center">
+  <a>
+    <img src="images/map.png" >
+  </a>
+  </div>
+
+
   
 
 
