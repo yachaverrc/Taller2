@@ -43,13 +43,15 @@ Para este proyecto se partirá de las instalaciones que se hicieron para el tall
 
 Adicionalmente, se deberá instalar:
 
-1. pandas
+1. Procesamiento 
   ```sh
-  pip install pandas  
+  pip install pandas 
+  pip install geopandas
   ```
-2. matplotlib
+2. Visualización 
   ```sh
-  pip install matplotlib  
+  pip install matplotlib
+  pip install plotly-express
   ```
 
 <!-- Analítica de datos en django -->
@@ -132,7 +134,7 @@ import urllib, base64
 import io
 ```
 
-Después, modifique la función _home_ de este mismo archivo. En esta función, se hará todo el procesamiento de los datos (geográficos y de lsa películas)
+Después, modifique la función _home_ de este mismo archivo. En esta función, se hará todo el procesamiento de los datos (geográficos y de las películas)
 
   <div align="center">
   <a>
