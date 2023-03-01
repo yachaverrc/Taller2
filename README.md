@@ -36,8 +36,32 @@
 <!-- ABOUT THE PROJECT -->
 ## Acerca del proyecto
 
+En este proyecto guiado en Python aprenderá a procesar y visualizar datos utilizando Pandas, GeoPandas y Plotly. Además, aprenderá a integrar su proyecto con una aplicación en Django. 
+
+Para esto, aprenderá a cargar archivs csv en un DataFrame de Pandas y a prepararlos para su posterior análisis. Después, aprenderá a responder algunas preguntas de análisis o a extraer información oculta en los datos. En este caso, trabajará con la base de datos de películas de IMDB aunque el aprendizaje le servirá para procesar cualquier conjunto de datos.
+
+Al final, aprenderá a utilizar Plotly para hacer figuras que puedan ser fácilmente mostradas en el Front de su aplicación. 
+
+En resumen, al final de este proyecto guiado usted deberá estar en capacidad de:
+
+- Importar y explorar datos
+- Realizar limpieza de datos
+- Utilizar Pandas/Plotly para crear histogramas que le permitan analizar la distribución de los datos
+- Crear gráficos de líneas y de barras (line charts & bar charts) para visualizar datos
+- Utilizar Pandas y Plotly para crear gráficas de dispersión (scatter plots) para realizar análisis de correlación
+
+
 <!-- ABOUT THE PROJECT -->
 ## Instalación
+
+## Analítica de datos en Colab
+
+Siga paso a paso las instrucciones del archivo <a href=IMDBAnalyticsColab/IMDBAnalyticsColab_Tutorial><strong>IMDBAnalyticsColab_Tutorial </strong></a>
+
+<!-- Analítica de datos en django -->
+## Analítica de datos en Django
+
+### Instalación
 
 Para este proyecto se partirá de las instalaciones que se hicieron para el taller 1 (django & git). 
 
@@ -53,9 +77,6 @@ Adicionalmente, se deberá instalar:
   pip install matplotlib
   pip install plotly-express
   ```
-
-<!-- Analítica de datos en django -->
-## Analítica de datos en Django
 
 ### Proyecto base
 Lo primero será revisar que el proyecto esté copiado correctamente desplegando el servidor. Para esto, desde la terminal ubicada en la carpeta del proyecto (IMDBAnalyticsProject), escriba lo siguiente
