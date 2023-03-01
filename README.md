@@ -72,7 +72,14 @@ Adicionalmente, se deberá instalar:
   ```
 
 ### 2. Proyecto base
-Lo primero será revisar que el proyecto esté copiado correctamente desplegando el servidor. Para esto, desde la terminal ubicada en la carpeta del proyecto (IMDBAnalyticsProject), escriba lo siguiente
+
+Lo primero que debe hacer es clonar el proyecto base. Para esto, desde la consola ejecute el siguiente comando:
+
+```sh
+git clone https://github.com/jdmartinev/IMDBAnalytics.git
+```
+
+Después, debe revisar que el proyecto esté copiado correctamente desplegando el servidor. Para esto, desde la terminal ubicada en la carpeta del proyecto (IMDBAnalyticsProject), escriba lo siguiente
 
   ```sh
   python manage.py runserver  
