@@ -23,8 +23,8 @@
   <ol>
     <li><a href="#acerca-del-proyecto">Acerca del proyecto</a></li>
     <li><a href="#analítica-de-datos-en-google-colab">Analítica de datos en google colab</a></li>
-    <li><a href="#Analítica de datos en django">Analítica de datos en django</a></li>
-    <li><a href="#Entregables">Entregables</a></li>
+    <li><a href="#analítica-de-datos-en-django">Analítica de datos en django</a></li>
+    <li><a href="#entregables">Entregables</a></li>
   </ol>
 </details>
 
