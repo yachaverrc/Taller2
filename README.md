@@ -22,15 +22,15 @@
   <summary>Tabla de contenidos</summary>
   <ol>
     <li><a href="#acerca-del-proyecto">Acerca del proyecto</a></li>
-    <li><a href="#Analítica de datos en google colab">Analítica de datos en google colab</a></li>
-    <li><a href="#Analítica de datos en django">Analítica de datos en google django</a></li>
+    <li><a href="#analitica-de-datos-en-google-colab">Analítica de datos en google colab</a></li>
+    <li><a href="#Analítica de datos en django">Analítica de datos en django</a></li>
     <li><a href="#Entregables">Entregables</a></li>
   </ol>
 </details>
 
 
 <!-- ABOUT THE PROJECT -->
-## Acerca del proyecto
+## **Acerca del proyecto**
 
 En este proyecto guiado en Python aprenderá a procesar y visualizar datos utilizando Pandas, GeoPandas y Plotly. Además, aprenderá a integrar su proyecto con una aplicación en Django. 
 
@@ -47,12 +47,12 @@ En resumen, al final de este proyecto guiado usted deberá estar en capacidad de
 - Utilizar Pandas y Plotly para crear gráficas de dispersión (scatter plots) para realizar análisis de correlación
 
 
-## Analítica de datos en Google Colab
+## **Analítica de datos en Google Colab**
 
 - Siga paso a paso las instrucciones del archivo <a href=IMDBAnalyticsColab/IMDBAnalyticsColab_Tutorial.ipynb><strong>IMDBAnalyticsColab_Tutorial </strong></a>
 - Resuleva los ejercicios propuestos en el archivo <a href=IMDBAnalyticsColab/IMDBAnalyticsColab_Workshop.ipynb><strong>IMDBAnalyticsColab_Workshop </strong></a>
 <!-- Analítica de datos en django -->
-## Analítica de datos en Django
+## **Analítica de datos en Django**
 
 ### 1. Instalación
 
@@ -221,7 +221,7 @@ Deberá ver algo de esta forma:
   </div>
 
 
-  
+## **Entregables**  
 
 
 
