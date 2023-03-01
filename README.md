@@ -7,7 +7,7 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Workshop analítca de datos</h3>
+  <h3 align="center">Workshop analítica de datos</h3>
 
   <p align="center">
     Proyecto de analítica de datos para el curso Proyecto Integrador 1 de Ingeniería de Sistemas - Universidad EAFIT
