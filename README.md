@@ -21,12 +21,7 @@
 <details>
   <summary>Tabla de contenidos</summary>
   <ol>
-    <li>
-      <a href="#acerca-del-proyecto">Acerca del proyecto</a>
-    </li>
-    <li>
-      <a href="#Instalación">Instalación</a>
-    </li>
+    <li><a href="#acerca-del-proyecto">Acerca del proyecto</a></li>
     <li><a href="#Analítica de datos en google colab">Analítica de datos en google colab</a></li>
     <li><a href="#Analítica de datos en django">Analítica de datos en google django</a></li>
     <li><a href="#Entregables">Entregables</a></li>
@@ -52,31 +47,31 @@ En resumen, al final de este proyecto guiado usted deberá estar en capacidad de
 - Utilizar Pandas y Plotly para crear gráficas de dispersión (scatter plots) para realizar análisis de correlación
 
 
-## Analítica de datos en Colab
+## Analítica de datos en Google Colab
 
 - Siga paso a paso las instrucciones del archivo <a href=IMDBAnalyticsColab/IMDBAnalyticsColab_Tutorial.ipynb><strong>IMDBAnalyticsColab_Tutorial </strong></a>
 - Resuleva los ejercicios propuestos en el archivo <a href=IMDBAnalyticsColab/IMDBAnalyticsColab_Workshop.ipynb><strong>IMDBAnalyticsColab_Workshop </strong></a>
 <!-- Analítica de datos en django -->
 ## Analítica de datos en Django
 
-### Instalación
+### 1. Instalación
 
 Para este proyecto se partirá de las instalaciones que se hicieron para el taller 1 (django & git). 
 
 Adicionalmente, se deberá instalar:
 
-1. Procesamiento 
+- Procesamiento 
   ```sh
   pip install pandas 
   pip install geopandas
   ```
-2. Visualización 
+- Visualización 
   ```sh
   pip install matplotlib
   pip install plotly-express
   ```
 
-### Proyecto base
+### 2. Proyecto base
 Lo primero será revisar que el proyecto esté copiado correctamente desplegando el servidor. Para esto, desde la terminal ubicada en la carpeta del proyecto (IMDBAnalyticsProject), escriba lo siguiente
 
   ```sh
@@ -129,7 +124,7 @@ Si navega en los modelos existentes (Movie y Map), puede observar que tiene 1 ma
   </a>
   </div>
   
-### Modificación del proyecto base
+### 3. Modificación del proyecto base
 
 Ahora, en el editor de código que esté utilizando, modifique el archivo _views.py_ que se encuentra en la aplicación analytics. En este archivo, incluya las librerías necesarias para procesar los datos que se cargarán desde los modelos Movie y Map, y las librerías necesarias para su procesamiento y graficación.
 
