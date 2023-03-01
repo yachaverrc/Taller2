@@ -225,9 +225,9 @@ Deberá ver algo de esta forma:
 
 Cree un repositorio **público** en ```github``` donde tenga:
 
-- El archivo 123456.ipynb con la solución del taller de analítica.
+- El archivo 123456789.ipynb con la solución del taller de analítica.
 - Un archivo .pdf con un pantallazo del mapa que generó con el proyecto de django
-- Una carpeta con el proyecto en django modificado
+- Una carpeta (en el repositorio) con el proyecto en django modificado
 
 Comparta por el buzón del Workshop 2 en interactiva el link del repositorio.
 
