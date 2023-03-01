@@ -12,7 +12,7 @@
   <p align="center">
     Proyecto de analítica de datos para el curso Proyecto Integrador 1 de Ingeniería de Sistemas - Universidad EAFIT
     <br />
-    <a href=IMDBAnalytics/IMDBAnalyticsProject><strong>Proyecto base </strong></a>
+    <a href=IMDBAnalyticsColab><strong>Proyecto base </strong></a>
     <br />
   </p>
 </div>
