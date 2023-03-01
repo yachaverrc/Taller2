@@ -170,7 +170,40 @@ def home(request):
     return render(request,'home.html',context)
 ```
 
-En este punto en la función home, tenemos los datos listos para graficar. 
+En este punto tiene el mapa listo para mostrar. Para esto, va a modificar el archivo _home.html_ que se encuentra en la carpeta _templates_ dentro de la aplicación _analytics_. 
+
+
+  <div align="center">
+  <a>
+    <img src="images/home.png" >
+  </a>
+  </div>
+
+```html
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>World map</title>
+</head>
+<body>
+  {{ chart|safe }}
+</body>
+</html>
+```
+
+Finalmente, despliegue el servidor:
+
+  <div align="center">
+  <a>
+    <img src="images/viewshome_prep.png" >
+  </a>
+  </div>
+
+```sh
+python manage.py runserver  
+```
+  
 
 
 
