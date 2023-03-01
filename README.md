@@ -27,8 +27,9 @@
     <li>
       <a href="#Instalación">Instalación</a>
     </li>
-    <li><a href="#Analítica de datos en google colab">Usage</a></li>
-    <li><a href="#Analítica de datos en django">Roadmap</a></li>
+    <li><a href="#Analítica de datos en google colab">Analítica de datos en google colab</a></li>
+    <li><a href="#Analítica de datos en django">Analítica de datos en google django</a></li>
+    <li><a href="#Entregables">Entregables</a></li>
   </ol>
 </details>
 
